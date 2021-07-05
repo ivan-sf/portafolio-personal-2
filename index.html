@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Santander | ISMA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="icon" type="image/png" href="img/fav.png">
+
+
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="#">IVAN 
+                <i class="fal fa-grin-beam fa-active"></i>
+                <i class="fal fa-kiss-wink-heart fa-hidden"></i>
+            </a>
+        </h1>
+        <span class="sub-title"></span>
+        
+        <div class="tools">
+            <div class="config" onclick="config()"><i class="fal fa-cog fa-active"></i></div>
+        </div>
+        <div class="lang">
+            <div class="close">
+                <a onclick="langClose()" href="#">X</a>
+                <img onclick="langSpa()" src="img/bandera-español.png" width="30px" alt="">
+                <img onclick="langEng()" src="img/bandera-ingles.png" width="30px" alt="">
+                <img onclick="langFr()" src="img/bandera-frances.png" width="30px" alt="">
+            </div>
+        </div>
+        
+       
+        <nav>
+            <ul>
+                <li><a class="menuOne active" href="#"></a></li>
+                <li><a class="menuTwo" href="#carousel"></a></li>
+                <li><a class="menuThree" onclick="perfilContent()" href="#"></a></li>
+            </ul>
+        </nav>
+
+        
+    </header>
+    <section class="banner">
+        <article class="left">
+            <h1 class="title-banner"> </h1>
+
+            <h2 class="sub-title-banner"></h2>
+        </article>
+      
+        <article class="right tooltip">
+            <div class="tooltip-box">
+                <span class="tooltiptext"></span>
+                <div class="tooltip-triangle"></div>
+            </div>
+            <div class="triangle">
+            </div>
+            <div class="box"></div>
+            <div class="box-2"></div>
+        </article>
+    </section>
+    
+    <section class="carousel" id="carousel">
+        <div class="glider">
+
+            <div class="glider-contenedor">
+                <button class="glider-prev"><i class="fal fa-long-arrow-left"></i></button>
+                <div class="glider-lista">
+                    <div class="glider-elemento el1">
+                            
+                    </div>
+
+                    <div class="glider-elemento elemento-2 el2">
+                        
+                    </div>
+                    <div class="glider-elemento elemento-2 el3">
+                        
+                    </div>
+                    
+                </div>
+                <button class="glider-next"><i class="fal fa-long-arrow-right"></i></button>
+            </div>
+
+            <div class="dots"></div>
+    </div>
+    </section>
+
+    
+
+    <section class="perfil">
+        <div class="tweet-profile">    
+            <h2 class="text-profile">
+                
+            </h2>
+        </div>
+
+        <div class="list-hobbies">
+            <h3 class="title-hobbies"></h3>
+            <ul>
+                <li class="list-hobbies-1"></li>
+                <li class="list-hobbies-2"></li>
+                <li class="list-hobbies-3"></li>
+                <li class="list-hobbies-4"></li>
+                <li class="list-hobbies-5"></li>
+                <li class="list-hobbies-6"></li>
+                <li class="list-hobbies-7"></li>
+            </ul>
+        </div>
+        <div class="list-rss">
+            <a target="_blank" href="https://www.instagram.com/ivn.io/">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a target="_blank" href="https://wa.link/2xwu1o">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a target="_blank" href="https://github.com/ivan-sf/">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <div class="close">
+            <a onclick="perfilClose()" href="#">X</a>
+        </div>
+    </section>
+    <section>
+        <footer class="footer">
+            
+        </footer>
+    </section>
+</body>
+<script src="js/glider.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/lang.js"></script>
+</html>
