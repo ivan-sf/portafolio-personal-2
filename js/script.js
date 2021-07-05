@@ -36,7 +36,3 @@ function perfilClose(){
   perfil.style.opacity=0;
 }
 
-function langClose(){
-  let lang = document.querySelector('.lang');
-  lang.style.opacity=0;
-}
