@@ -274,7 +274,3 @@ function config(){
      <img class="glider-img-1" src="img/3.png" alt="">`;
    }
    
-function langClose(){
-    let lang = document.querySelector('.lang');
-    lang.style.opacity=0;
-}
