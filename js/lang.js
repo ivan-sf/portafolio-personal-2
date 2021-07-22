@@ -28,6 +28,7 @@ function config(){
      let el1 = document.querySelector('.el1');
      let el2 = document.querySelector('.el2');
      let el3 = document.querySelector('.el3');
+     let el4 = document.querySelector('.el4');
      
      subTitle.innerHTML='CREATIVIDAD | DESARROLLO';
      menuOne.innerHTML='Inicio';
@@ -93,6 +94,18 @@ function config(){
      </h2>
      <div class="triangle"></div>
      <img class="glider-img-1" src="img/3.png" alt="">`;
+     el4.innerHTML=`<h1>iRocket</h1>
+     <h2>
+         Aplicacion web
+         <br>
+         <span>
+             2018
+         </span>
+         <br><br>
+         <a href="#carousel">PROYECTO ARCHIVADO</a>
+     </h2>
+     <div class="triangle"></div>
+     <img class="glider-img-1" src="img/4.jpg" alt="">`;
    }
    
    function langEng(){
